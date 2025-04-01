@@ -15,8 +15,8 @@ export default function Navigation() {
           {path === '/' ? '❤️' : ''}
         </li>
         <li>
-          <Link href="/about-us">Abount Us</Link>
-          {path === '/about-us' ? '❤️' : ''}
+          <Link href="/introduction">introduction</Link>
+          {path === '/introduction' ? '❤️' : ''}
         </li>
         <li>
           <button onClick={() => setCount((c) => c + 1)}>{count}</button>
