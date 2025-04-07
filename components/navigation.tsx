@@ -19,6 +19,10 @@ export default function Navigation() {
           {path === '/introduction' ? '❤️' : ''}
         </li>
         <li>
+          <Link href="/routing">routing</Link>
+          {path === '/routing' ? '❤️' : ''}
+        </li>
+        <li>
           <button onClick={() => setCount((c) => c + 1)}>{count}</button>
         </li>
       </ul>
