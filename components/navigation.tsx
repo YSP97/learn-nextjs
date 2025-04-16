@@ -15,6 +15,10 @@ export default function Navigation() {
           {path === '/' ? '❤️' : ''}
         </li>
         <li>
+          <Link href="/about-us">About-us</Link>
+          {path === '/' ? '❤️' : ''}
+        </li>
+        <li>
           <Link href="/introduction">introduction</Link>
           {path === '/introduction' ? '❤️' : ''}
         </li>
