@@ -1,3 +1,7 @@
+export const metadata = {
+  title: 'Routing',
+};
+
 export default function Routing() {
   return (
     <div>

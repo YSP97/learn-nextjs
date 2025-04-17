@@ -1,14 +1,12 @@
-'use client';
-
-import { usePathname } from 'next/navigation';
-import Navigation from '../../components/navigation';
+export const metadata = {
+  title: 'About us',
+};
 
 export default function AboutUs() {
-  const path = usePathname();
-  console.log(path);
+
   return (
-    <>
+    <div>
       <h1>About Us!</h1>
-    </>
+    </div>
   );
 }
