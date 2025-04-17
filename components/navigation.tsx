@@ -2,11 +2,9 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
 
 export default function Navigation() {
   const path = usePathname();
-  const [count, setCount] = useState(0);
   return (
     <nav>
       <ul>
@@ -16,18 +14,7 @@ export default function Navigation() {
         </li>
         <li>
           <Link href="/about-us">About-us</Link>
-          {path === '/' ? '❤️' : ''}
-        </li>
-        <li>
-          <Link href="/introduction">introduction</Link>
-          {path === '/introduction' ? '❤️' : ''}
-        </li>
-        <li>
-          <Link href="/routing">routing</Link>
-          {path === '/routing' ? '❤️' : ''}
-        </li>
-        <li>
-          <button onClick={() => setCount((c) => c + 1)}>{count}</button>
+          {path === '/about-us' ? '❤️' : ''}
         </li>
       </ul>
     </nav>

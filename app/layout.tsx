@@ -13,7 +13,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <h6>나는 Layout임</h6>
         <Navigation />
         {children}
       </body>
